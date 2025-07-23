@@ -25,6 +25,21 @@ def obter_resposta(texto: str) -> str:
          ('olá', 'boa tarde', 'bom dia'): 'Olá tudo bem!',
          'como estás': 'Estou bem, obrigado!',
          ('bye', 'adeus', 'tchau'): 'Gostei de falar contigo! Até breve...',
+         'como te chamas?': 'O meu nome é Bot :)',
+        'tempo': 'Está um dia de sol!',
+        'horas': f'São: {datetime.now():%H:%M} horas',
+        'data': f'Hoje é dia: {datetime.now():%d-%m-%Y}',
+        'qual é o teu criador?': 'Fui criado por um programador em Python.',
+        'o que fazes?': 'Eu sou um chatbot e posso conversar contigo sobre diversos assuntos!',
+        'ajuda': 'Posso responder a perguntas sobre o tempo, a data, as horas, e muito mais!',
+        'qual a tua cor favorita?': 'Não tenho cor favorita, sou um programa de computador!',
+        'tens sentimentos?': 'Como inteligência artificial, não tenho sentimentos, mas estou aqui para te ajudar!',
+        'onde vives?': 'Eu vivo no ciberespaço!',
+        'qual o teu objetivo?': 'O meu objetivo é auxiliar nas tuas perguntas e tornar a tua experiência mais fácil.',
+        'conta-me uma piada': 'O que o tomate foi fazer no banco? Foi tirar um extrato!',
+        'estás aborrecido?': 'Nunca me aborreço, estou sempre pronto para aprender e interagir!',
+        'o que é python?': 'Python é uma linguagem de programação muito popular e poderosa.',
+        'obrigado': 'De nada! Fico feliz em ajudar.',
      }
 
     for chave, resposta in respostas.items():
