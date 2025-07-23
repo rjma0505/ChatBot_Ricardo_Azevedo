@@ -1,3 +1,6 @@
+#ChatBot_Ricardo_Azevedo
+#23/07/2025
+
 import os
 from datetime import datetime
 
